@@ -1,0 +1,60 @@
+.main {
+  width: 80%;
+  margin: 7rem;
+}
+.tshirtContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.main h1 {
+  margin: 0;
+  font-size: 60px;
+}
+.main h2 {
+  margin: 0;
+  font-size: 3rem;
+}
+
+.main p {
+  margin: 3px 0;
+}
+
+.main button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main .title {
+  text-align: center;
+  padding: 0 0 3rem 0;
+}
+
+@media screen and (max-width: 992px) {
+  .main {
+    /* margin-right: 50px; */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .main h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .main {
+    /* margin-right: 20px; */
+  }
+
+  .main p {
+    font-size: 14px;
+  }
+}
